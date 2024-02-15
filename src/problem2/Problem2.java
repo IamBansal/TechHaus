@@ -1,8 +1,6 @@
-import org.junit.Test;
+package problem2;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertArrayEquals;
 
 /*
     PROBLEM 2:
@@ -36,14 +34,5 @@ public class Problem2 {
         sort(array);
 
         sc.close();
-    }
-
-    //Test function for descending sort function
-    @Test
-    public void testSortFunction() {
-        int[] input = {2, 3, 4, 7, 1, 0, -1, 1};
-        int[] expected = {7, 4, 3, 2, 1, 1, 0, -1};
-        sort(input);
-        assertArrayEquals(expected, input);
     }
 }

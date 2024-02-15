@@ -1,8 +1,6 @@
-import org.junit.Test;
+package problem10;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertEquals;
 
 /*
     PROBLEM 10:
@@ -29,12 +27,5 @@ public class Problem10 {
         System.out.println(sumOfMinMaxElements(array));
 
         sc.close();
-    }
-
-    @Test
-    public void testSumOfMinMaxElementsFunction() {
-        assertEquals(6, sumOfMinMaxElements(new int[]{1, 2, 3, 4, 5}));
-        assertEquals(1, sumOfMinMaxElements(new int[]{10, 2, 3, 4, -9}));
-        assertEquals(0, sumOfMinMaxElements(new int[]{0, 0, 0, 0, 0}));
     }
 }

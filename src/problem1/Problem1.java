@@ -1,9 +1,6 @@
-import org.junit.Test;
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.util.Scanner;
+package problem1;
 
-import static org.junit.Assert.assertEquals;
+import java.util.Scanner;
 
 /*
     PROBLEM 1:
@@ -30,15 +27,4 @@ public class Problem1 {
         sc.close();
     }
 
-    @Test
-    public void testPatternFunction(){
-        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
-
-        pattern(5);
-
-        // '\r' is added before \n as the output stream treats the line break as in line only.
-        String expectedOutput = "5 \r\n5 5 \r\n5 5 5 \r\n5 5 5 5 \r\n5 5 5 5 5 \r\n";
-        assertEquals(expectedOutput, outContent.toString());
-    }
 }

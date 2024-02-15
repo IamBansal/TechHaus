@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4d9bb08-e536-4df2-955b-926fbfd9ee38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechHaus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem9.java" afterDir="false" />
+    <list default="true" id="d4d9bb08-e536-4df2-955b-926fbfd9ee38" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/problem1/Problem1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem10/Problem10Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/Problem2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem3/Problem3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem4/Problem4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem5/Problem5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem6/Problem6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem7/Problem7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem7/Problem7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem8/Problem8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem9/Problem9Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem1/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem10/Problem10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem3/Problem3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/Problem4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem5/Problem5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem6/Problem6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem8/Problem8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem9/Problem9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,70 +54,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Problem6">
-    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem6" />
+}</component>
+  <component name="RunManager" selected="JUnit.Problem10Test">
+    <configuration name="Problem10Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechHaus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problem10" />
+      <option name="MAIN_CLASS_NAME" value="problem10.Problem10Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem9" />
+    <configuration name="Problem6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechHaus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problem6" />
+      <option name="MAIN_CLASS_NAME" value="problem6.Problem6Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem6.testCalculateTotalInterest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechHaus" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Problem6" />
-      <option name="METHOD_NAME" value="testCalculateTotalInterest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problem7" />
+      <option name="MAIN_CLASS_NAME" value="problem7.Problem7Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem8.testCalculateTotalSeconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechHaus" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Problem8" />
-      <option name="METHOD_NAME" value="testCalculateTotalSeconds" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problem8" />
+      <option name="MAIN_CLASS_NAME" value="problem8.Problem8Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem9.testSortStringsFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechHaus" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Problem9" />
-      <option name="METHOD_NAME" value="testSortStringsFunction" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problem9" />
+      <option name="MAIN_CLASS_NAME" value="problem9.Problem9Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem6" />
-        <item itemvalue="JUnit.Problem6.testCalculateTotalInterest" />
-        <item itemvalue="JUnit.Problem9.testSortStringsFunction" />
-        <item itemvalue="Application.Problem9" />
-        <item itemvalue="JUnit.Problem8.testCalculateTotalSeconds" />
+        <item itemvalue="JUnit.Problem10Test" />
+        <item itemvalue="JUnit.Problem9Test" />
+        <item itemvalue="JUnit.Problem8Test" />
+        <item itemvalue="JUnit.Problem7Test" />
+        <item itemvalue="JUnit.Problem6Test" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +161,14 @@
       <option name="presentableId" value="Default" />
       <updated>1707934947404</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1707943662931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707943662931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +186,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

@@ -1,8 +1,6 @@
-import org.junit.Test;
+package problem6;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertEquals;
 
 /*
     PROBLEM 6:
@@ -29,13 +27,5 @@ public class Problem6 {
         System.out.println("Total interest earned: " + totalInterest);
 
         sc.close();
-    }
-
-    @Test
-    public void testCalculateTotalInterest() {
-        assertEquals(calculateTotalInterest(1000, 5, 12), 51.162, 0.001);
-        assertEquals(calculateTotalInterest(2000, 7.5, 24), 322.584, 0.001);
-        assertEquals(calculateTotalInterest(5000, 3.25, 6), 81.802, 0.001);
-        assertEquals(calculateTotalInterest(3000, 4, 36), 381.816, 0.001);
     }
 }

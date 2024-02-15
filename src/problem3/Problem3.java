@@ -1,9 +1,6 @@
-import org.junit.Test;
+package problem3;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /*
     PROBLEM 3:
@@ -23,19 +20,5 @@ public class Problem3 {
 
         System.out.println(isPrime(sc.nextInt()));
         sc.close();
-    }
-
-    @Test
-    public void testIsPrimeFunction() {
-        assertTrue(isPrime(2));
-        assertTrue(isPrime(3));
-        assertFalse(isPrime(4));
-        assertTrue(isPrime(5));
-        assertFalse(isPrime(6));
-        assertTrue(isPrime(7));
-        assertFalse(isPrime(8));
-        assertFalse(isPrime(9));
-        assertFalse(isPrime(10));
-        assertTrue(isPrime(11));
     }
 }

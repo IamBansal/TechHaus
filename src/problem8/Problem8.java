@@ -1,8 +1,6 @@
-import org.junit.Test;
+package problem8;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertEquals;
 
 /*
     PROBLEM 8:
@@ -16,6 +14,7 @@ public class Problem8 {
         if(str.isEmpty()) return 0;
         int seconds = 0;
 
+        //Splitting the string in sub-parts
         for (String timeFrame : str.split("\\s+")) {
             int time = Integer.parseInt(timeFrame.substring(0, timeFrame.length() - 1));
             if (timeFrame.endsWith("h")) seconds += time * 3600;
@@ -34,15 +33,5 @@ public class Problem8 {
         System.out.println(convertToSeconds(sc.nextLine()) + " seconds");
 
         sc.close();
-    }
-
-    @Test
-    public void testConvertToSecondsFunction() {
-        assertEquals(15610, convertToSeconds("4h 20m 10s"));
-        assertEquals(0, convertToSeconds(""));
-        assertEquals(3600, convertToSeconds("1h"));
-        assertEquals(120, convertToSeconds("2m"));
-        assertEquals(5, convertToSeconds("5s"));
-        assertEquals(3665, convertToSeconds("1h 1m 5s"));
     }
 }

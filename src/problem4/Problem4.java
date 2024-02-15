@@ -1,9 +1,6 @@
-import org.junit.Test;
+package problem4;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /*
     PROBLEM 4:
@@ -13,6 +10,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class Problem4 {
 
+    //Checks for casing using inbuilt isUpperCase, isLowerCase function
     public static boolean checkEqualCasing(String str){
         int upperCount = 0, lowerCount = 0;
 
@@ -27,6 +25,11 @@ public class Problem4 {
         return upperCount == lowerCount;
     }
 
+    /*
+    Checks for casing using ASCII values for UpperCase and LowerCase characters
+        UpperCase letters: 65-90
+        LowerCase letters: 97-122
+     */
     public static boolean checkEqualCasingUsingASCII(String str){
         int upperCount = 0, lowerCount = 0;
 
@@ -47,20 +50,5 @@ public class Problem4 {
         checkEqualCasingUsingASCII(sc.nextLine());
 
         sc.close();
-    }
-
-    @Test
-    public void testUppercaseLowercaseCounter() {
-        assertFalse(checkEqualCasing("Akshat Bansal"));
-        assertFalse(checkEqualCasing("Akshat bansal"));
-        assertTrue(checkEqualCasing("AkShAt   123   BaNsAl"));
-        assertFalse(checkEqualCasing("AKSHAT BANSAL"));
-        assertFalse(checkEqualCasing("akshat bansal"));
-
-        assertFalse(checkEqualCasingUsingASCII("Akshat Bansal"));
-        assertFalse(checkEqualCasingUsingASCII("Akshat bansal"));
-        assertTrue(checkEqualCasingUsingASCII("AkShAt   123   BaNsAl"));
-        assertFalse(checkEqualCasingUsingASCII("AKSHAT BANSAL"));
-        assertFalse(checkEqualCasingUsingASCII("akshat bansal"));
     }
 }

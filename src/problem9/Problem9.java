@@ -1,8 +1,6 @@
-import org.junit.Test;
+package problem9;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.assertArrayEquals;
 
 /*
     PROBLEM 9:
@@ -40,13 +38,5 @@ public class Problem9 {
         sortStrings(stringArray);
         System.out.println("Sorted strings array:");
         for (String str : stringArray) System.out.println(str);
-    }
-
-    @Test
-    public void testSortStringsFunction() {
-        String[] input = {"a", "bc", "abc", "b", "cd", "acd"};
-        String[] expected = {"a", "b", "bc", "cd", "abc", "acd"};
-        sortStrings(input);
-        assertArrayEquals(expected, input);
     }
 }

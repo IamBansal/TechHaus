@@ -1,7 +1,6 @@
-import org.junit.Test;
+package problem5;
+
 import java.util.Scanner;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /*
     PROBLEM 5:
@@ -39,13 +38,5 @@ public class Problem5 {
 
         System.out.println(isSpecialArray(array));
         sc.close();
-    }
-
-    @Test
-    public void testIsSpecialArrayFunction() {
-        assertTrue(isSpecialArray(new int[][] {{4, 5, 6}, {5, 3, 2}, {4, 2, 5}}));
-        assertTrue(isSpecialArray(new int[][] {{-4, -5, -6}, {-5, -3, -2}, {-4, -2, -5}}));
-        assertFalse(isSpecialArray(new int[][] {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
-        assertTrue(isSpecialArray(new int[][] {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}));
     }
 }
